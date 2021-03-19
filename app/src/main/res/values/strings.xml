@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Lists</string>
+    <string name="temporary_title">Temporary Title</string>
+    <string name="new_list_title">Add new list</string>
+    <string name="title_of_new_list">Title</string>
+    <string name="add">ADD</string>
+    <string name="edit">EDIT</string>
+    <string name="cancel" tools:ignore="ButtonCase">CANCEL</string>
+    <string name="add_new_item">Add a new item</string>
+    <string name="name_of_new_item">Item Name</string>
+    <string name="new_item_cost">Estimated cost:</string>
+    <string name="cost_of_new_item">0.00</string>
+    <string name="temporary_item_name">Item Name</string>
+    <string name="shoppingLists">Shopping</string>
+    <string name="recycled_title">Temporary Title</string>
+    <string name="recycled_item">Temporary Item</string>
+    <string name="recycled_item_cost">Cost</string>
+    <string name="recycled_item_amount">Amount</string>
+    <string name="total_cost">Total cost: $</string>
+    <string name="total_cost_value">0.00</string>
+    <string name="new_item_amount">Amount of items:</string>
+    <string name="amount_of_new_item">0</string>
+</resources>

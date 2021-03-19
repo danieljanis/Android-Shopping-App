@@ -1,0 +1,2 @@
+rootProject.name='ShoppingMVVM'
+include ':app'

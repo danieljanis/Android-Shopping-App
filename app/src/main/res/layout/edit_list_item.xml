@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    android:padding="15sp">
+
+    <TextView
+        android:id="@+id/promptItem2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/add_new_item"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints="@string/name_of_new_item"
+        android:ems="10"
+        android:hint="@string/name_of_new_item"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/promptCost2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/new_item_cost"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editCost2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:autofillHints="@string/cost_of_new_item"
+        android:ems="10"
+        android:hint="@string/cost_of_new_item"
+        android:inputType="number|numberDecimal" />
+
+    <TextView
+        android:id="@+id/promptAmount2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/new_item_amount"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editAmount2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:autofillHints="@string/cost_of_new_item"
+        android:ems="10"
+        android:hint="@string/amount_of_new_item"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/editItemBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edit"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/cancelItemBtn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:textSize="20sp" />
+
+</LinearLayout>
